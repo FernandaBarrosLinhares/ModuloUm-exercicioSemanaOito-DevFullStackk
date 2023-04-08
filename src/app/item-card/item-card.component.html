@@ -1,0 +1,16 @@
+ <!--Crie um componente que será um card, este card poderá ser utilizado para indicar algumas informações sobre personagens da sua série favorita, exemplo, minha série favorita é Game Of Thrones, um de seus personagens é o Jon Snow. Essas informações são: nome, uma imagem, nome do ator, e uma breve descrição. No início esse componente será chamado de item-card e as informações serão fixas, escolha apenas um personagem.-->
+<div class="item-card border roudend shadow-sm mb-3">
+    <img [src]="character.image" alt="" class="img-fluidng "/>
+    <div class="px-3 py-2">
+      <div class= "mb-2">
+        <h4 class="m-0">{{character.name}}</h4>
+        <span class="text-secondary">{{ character.actorName }}</span>
+      </div>
+      <p>
+        {{character.description}}
+      </p>
+    </div>
+  </div>
+
+
+

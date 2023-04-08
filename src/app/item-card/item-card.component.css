@@ -1,0 +1,10 @@
+/* .item-card(
+  overflow: hidden;
+
+  .card-image{
+    max-height: 150px;
+    width: 100px;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+) */
